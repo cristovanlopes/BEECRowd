@@ -4,8 +4,8 @@ import java.util.Locale;
 public class ex1021 {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in).useLocale(Locale.US);
-        double n = sc.nextDouble();
+	Scanner sc = new Scanner(System.in).useLocale(Locale.US);
+	double n = sc.nextDouble();
         int[] notes = { 100, 50, 20, 10, 5, 2 };
         int[] coins = { 50, 25, 10, 5, 1 };
         String[] noteNames = { "nota(s) de R$ 100.00", "nota(s) de R$ 50.00", "nota(s) de R$ 20.00", "nota(s) de R$ 10.00", "nota(s) de R$ 5.00", "nota(s) de R$ 2.00" };
